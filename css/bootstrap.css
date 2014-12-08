@@ -1,4 +1,7 @@
-
+#header-buttons.closed{
+  float: right;
+  color: white;
+}
 /*!
  * Bootstrap v3.3.0 (http://getbootstrap.com)
  * Copyright 2011-2014 Twitter, Inc.
@@ -35,6 +38,7 @@ summary {
 aside{
   width: 80%;
   display: inline-block;
+  background-color: #f5f5f5;
 }
 audio,
 canvas,
@@ -53,6 +57,9 @@ template {
 }
 a {
   background-color: transparent;
+}
+a.closed{
+  color: rgb(85, 81, 224);
 }
 a:active,
 a:hover {
@@ -2072,7 +2079,7 @@ caption {
   text-align: left;
 }
 th {
-  text-align: left;
+  text-align: center;
 }
 .table {
   width: 100%;

@@ -14,18 +14,11 @@
   <body>
   <header>
     <section class="row-fluid panel blue reverseLink">
-      <h1><img alt="Gsb"src="images/logo.png">Administration de Margo</h1>
+      <div id="header-buttons" class="closed">     
+      <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nom prénom 
+      <a class="closed" role="Deconnexion" href="#"> (Déconnexion)</a>
+    </div>
+      <h1><img alt="Gsb"src="images/logo.png"> Administration de Margo</h1>
     </section>
-      <div class="col-md-2" id="navigation">
-        <span class="glyphicon glyphicon-user" aria-hidden="true"></span> Nom prénom 
-        <br><a role="Deconnexion" href="#">Déconnexion</a></br>
-
-      </div>
-      <div class="col-md-8" id="main-content">
-        <ul class="nav nav-pills nav-justified">
-          <li role="administration" class="active"><a href="#">Administration des thèmes</a></li>
-          <li role="creation"><a href="#">Ajouter des mots</a></li>
-        </ul>
-        <hr>
-      </div>
+    <hr>
   </header>
